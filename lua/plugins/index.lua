@@ -30,7 +30,9 @@ require('lazy').setup({
   require 'plugins.gitsigns', -- idk what this does.
   require 'plugins.which-key', -- Displays that menu at the bottom with all the possible key-bindings. Hit leader for example.
   require 'plugins.telescope', -- Fuzzy Finder (files, lsp, etc)
-  unpack(require 'plugins.lsp'), -- LSP Plugins
+  require 'plugins.nvim-lspconfig', -- nvim-lspconfig
+  require 'plugins.lazydev',
+  require 'lua.plugins.luvit-meta',
   require 'plugins.conform', -- Autoformatting, formatting.
   require 'plugins.nvim-cmp', -- Autocompletion
   require 'plugins.theme', -- Colorscheme / Theme
