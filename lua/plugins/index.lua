@@ -32,7 +32,7 @@ require('lazy').setup({
   require 'plugins.telescope', -- Fuzzy Finder (files, lsp, etc)
   require 'plugins.nvim-lspconfig', -- nvim-lspconfig
   require 'plugins.lazydev',
-  require 'lua.plugins.luvit-meta',
+  require 'plugins.luvit-meta',
   require 'plugins.conform', -- Autoformatting, formatting.
   require 'plugins.nvim-cmp', -- Autocompletion
   require 'plugins.theme', -- Colorscheme / Theme
